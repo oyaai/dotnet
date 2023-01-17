@@ -1,0 +1,576 @@
+@charset "utf-8";
+/* CSS Document */
+/* subsaarad@globaledge.asia */
+
+body{
+	background-image:url(../img/bg_all.png);
+	background-repeat:repeat;
+	margin: 0 0 0 0;
+	}
+
+.float_l{
+	float:left;
+	}
+.float_r{
+	float:right;
+	}
+.text_center{
+	text-align:center;
+	}
+.head_bg_blue{
+	background-image:url(../img/bg-top-blue.png);
+	background-repeat:repeat-x;
+	height:38px;
+	}
+/*-----content-------*/
+.detail_all{
+	width:1100px;
+	}
+.content{
+	width:800px;
+	height:100%;
+	/*background-color:#FFFFFF;*/
+	vertical-align:middle;
+	float:right;
+	
+	margin:0 auto;
+	}
+.menu_left{
+	float:left;
+	width:240px;
+	margin:20px 0px 20px 20px;
+	}
+.logo{
+	background-image:url(../img/logo_company.png);
+	background-repeat:no-repeat;
+	width:200px;
+	height:57px;
+	margin:0 auto;
+	}
+.user_info{
+	padding-left:33px;
+	color:#acb6c3;                  /*----- lin edit 4/7/2013 -------*/
+	font-family: Arial , Tahoma, ;  /*----- lin edit 4/7/2013 -------*/
+	font-size:14px;                 /*----- lin edit 4/7/2013 -------*/
+	}
+.detail_user{
+	background-color:#FFFFFF;
+	border:1px solid #bfbfbf;
+	width:240px;
+	height:150px;
+	margin:20px 0px 20px 0px;
+	}
+.user_sh{
+	background-image:url(../img/show_user.png);
+	background-repeat:no-repeat;
+	width:204px;
+	height:30px;
+	margin:15px auto;
+	padding-top:5px;
+	}
+.department_sh{
+	background-image:url(../img/show_department.png);
+	background-repeat:no-repeat;
+	width:204px;
+	height:30px;
+	margin:-5px auto;
+	padding-top:5px;
+	}
+ .user_info
+ {
+ 	padding-left:33px;
+ }
+/*-----bt logout-------*/	
+.logout_mouse {
+	display: block;
+	width:204px;
+	height:30px;
+	background: url(../img/bt-logout-out.png);
+	 
+	}
+	
+.logout_mouse:hover {
+	background-image:url(../img/bt-logout-over.png);
+	}
+		
+.logout_center{
+	vertical-align:middle;
+	margin:15px auto;
+	width:204px;
+	height:30px;
+	}	
+/*-----menu -------*/		
+.menu_all{
+	width:226px;
+	margin:0 auto;
+
+	}	
+ul.v_menu{   
+    list-style:none;     
+    margin:0px;     
+    padding:0px;     
+   	width:226px;
+	height:32px;    
+    font-family: Arial , Tahoma, ;
+    font-size:14px;
+    text-decoration:none;     
+    position:relative;
+	
+}     
+ul.v_menu > li{ 
+    display:block;     
+    height:32px;     
+    text-indent:20px;
+    padding: 7px 0px 0px 0px;
+	margin:0px 0px -7px 0px;  
+	background-image:url(../img/bg-out.png);
+	background-repeat:no-repeat;
+}     
+ul.v_menu > li:hover{ 
+    display:block;     
+    height:32px;         
+    text-indent:20px;  
+    padding: 7px 0px 0px 0px;
+	margin:0px 0px -7px 0px;   
+	background-image:url(../img/bg-over.png); 
+	background-repeat:no-repeat;   
+}     
+
+ul.v_menu > li > a{    
+    text-decoration:none;     
+    color: #FFF;
+    height:32px;   
+}   
+ul.v_menu > li:hover > ul > li > a
+{
+	text-decoration:none;     
+    color: #355ba9;
+    height:32px;   
+}
+
+ul.v_menu > li > ul{  
+    display:none;  
+    list-style:none;     
+    margin-left:226px;   
+    padding:0px;     
+    width:252px;  
+	
+}   
+ul.v_menu > li:hover > ul{  
+    display:block;  
+    list-style:none;     
+    margin:0px;  
+    margin-top:-16px;  
+    margin-left:226px;   
+    padding:0px;     
+   	width:252px;  
+}   
+
+ul.v_menu > li:hover > ul > li{  
+    display:block;     
+    height:32px;     
+    text-indent:20px;
+	padding: 7px 0px 0px 0px;
+	margin:0px 0px -7px 0px;
+	background-image:url(../img/sub-out.png);
+	background-repeat:no-repeat;    
+}    
+ /* กำหนดรูปแบบให้กับเมนูย่อยเมื่อเมาส์อยู่เหนือ */ 
+ul.v_menu > li:hover > ul > li:hover{  
+    display:block;     
+    height:32px;     
+    text-indent:20px;
+    padding: 7px 0px 0px 0px;
+	margin:0px 0px -7px 0px;    
+    background-image:url(../img/sub-over.png);  
+	background-repeat:no-repeat;  
+} 
+
+/* Start sub menu direction down*/
+ul.v_menu > li:hover > ul.master{  
+    display:block;  
+    list-style:none;     
+    margin:0px;
+    margin-top:-250px;  
+    margin-left:226px;   
+
+    padding:0px;     
+    width:252px;
+    position: inherit;
+    z-index:-1; 
+}   
+
+ul.v_menu > li:hover > ul.admin{  
+    display:block;  
+    list-style:none;     
+    margin:0px;
+    margin-top:-60px;  
+    margin-left:226px;   
+    padding:0px;     
+    width:252px;
+    position: inherit;
+    z-index:-1; 
+}
+/* End sub menu direction down*/
+
+/* Start Table style */
+.table_search{
+    border-collapse:collapse;
+	background-color:#dedede;
+	text-align:left;
+	vertical-align:middle;	
+}
+/*.table_search, td, th{
+	border:1px solid gray;
+}*/
+
+.table_inquiry tbody tr:nth-child(even){
+	color: #343434;
+	background-color:#d5eaf7;
+}
+
+.table_inquiry,td{
+	padding:5px;
+}
+.table_head{
+	background-color:#7ac4f4;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:middle;	
+	border:1px solid #76a2c7;
+	border-collapse:collapse;
+}
+.table_item
+{
+	color: #343434;
+	background-color: #ffffff;
+}
+.table_alter{
+	color: #343434;
+	background-color:#d5eaf7;
+}
+/**/
+.table_gray{
+	color: #343434;
+	background-color:gray;
+}
+/* End Table style */
+
+.button_style
+{
+	font: bold 13px;
+	width: 75px;
+	height: 25px;
+}
+/*Pranitda S. Start-Add 20130624 */
+.button_style_sp
+{
+	font: bold 13px;
+	width: 130px;
+	height: 25px;
+}
+/*Pranitda S. End-Add 20130624 */
+.textbox_read_only{
+	background-color:#EAEAEA;
+}
+
+/* Class for Maintainance */
+.table_field
+{
+	width:860px;
+	height:auto;
+	border-collapse:collapse;
+	text-align:left;
+	font-family:Tahoma;
+	font-size:13px;
+}
+.table_common
+{
+	height:auto;
+	border-collapse:collapse;
+	text-align:left;
+	font-family:Tahoma;
+	font-size:13px;
+}
+/* Boon add 28/05/2013 */
+.table_field_fix{
+	width:auto;
+	height:auto;
+	border-collapse:collapse;
+	text-align:left;
+	font-family:Tahoma;
+	font-size:13px;
+	/*table-layout: fixed;*/
+    /*word-break:break-all;*/
+    word-wrap:break-word;
+    overflow:hidden;
+    width:100%;
+}
+/*2013-07-15 Pranitda S. Start-Add*/
+.table_rating
+{
+	border-collapse:collapse;
+	text-align:left;
+	font-family:Tahoma;
+	font-size:13px;
+}
+.table_head_gray{
+	background-color:#a6a6a6;
+	color: #000000;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:middle;	
+	border:1px solid #000000;
+	border-collapse:collapse;
+}
+.table_field_td1{
+	border:1px solid black;
+	background-color:#dedede;
+	padding:5px;
+	text-align:center;
+}
+/*2013-07-15 Pranitda S. End-Add*/
+.table_field_fixs{
+	width:auto;
+	height:auto;
+	border-collapse:collapse;
+	text-align:left;
+	font-family:Tahoma;
+	font-size:13px;
+    word-wrap:break-word;
+    overflow:hidden;
+}
+.table_field_td{
+	border:1px solid black;
+	background-color:#dedede;
+	padding:5px;
+	vertical-align:top;
+}
+.table_field_td_head{
+	border:1px solid black;
+	background-color:#808080;
+	padding:5px;
+	vertical-align:top;
+}
+.text_not_selete{
+	background-color:#EAEAEA;
+	width:150px;
+}
+.text_multiLine{	
+	font-family:Tahoma;
+	width:150px;
+	font-size:13px;
+}
+/* End Boon add */
+.table_row_head{
+	width:120px;	
+	table-layout:fixed;
+}
+.table_row_hidden{
+	word-wrap:break-word;
+    overflow:hidden;
+}
+.text_field{
+	width:150px;
+}
+.dropdown_field{
+	width:150px;
+}
+.dropdown_mini_field{
+	width:100px;
+}
+.table_border1{
+	border:1px solid black;
+	background-color:#dedede;
+}
+.td_edit{
+	width:50px;
+}
+.td_delete{
+	width:50px;
+}
+/* End Class for Maintainance */
+
+/* Class Icon (Boon) */
+.icon_center35{
+	margin-left:35px;
+}
+.icon_center25{
+	margin-left:25px;
+}
+.icon_center20{
+	margin-left:20px;
+}
+.icon_center15{
+	margin-left:15px;
+}
+.icon_center9{
+	margin-left:9px;
+}
+.icon_left{
+	margin-left:3px;
+}
+.icon_del1{ 
+	background-image:url(../img/Icon2/Delete.png);
+    background-position:left;
+    background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	/*margin-left:3px;*/
+	float:left;
+}
+.icon_del2{ 
+	background-image:url(../img/Icon2/Delete_Disable.png);
+    background-position:left;
+    background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	/*margin-left:3px;*/
+	float:left;
+}
+.icon_detail1{ 
+	background-image:url(../img/Icon2/Detail.png);
+    background-position:left;
+    background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	/*margin-left:3px;*/
+	float:left;
+}
+.icon_detail2{ 
+	background-image:url(../img/Icon2/Detail_Disalbe.png);
+    background-position:left;
+    background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	/*margin-left:3px;*/
+	float:left;
+}
+.icon_edit1{ 
+	background-image:url(../img/Icon2/Edit.png);
+    background-position:left;
+    background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	/*margin-left:3px;*/
+	float:left;
+}
+.icon_edit2{ 
+	background-image:url(../img/Icon2/Edit_Disable.png);
+    background-position:left;
+    background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	/*margin-left:3px;*/
+	float:left;
+}
+.icon_delivery1{ 
+	background-image:url(../img/Icon2/Delivery.png);
+    background-position:left;
+    background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	/*margin-left:3px;*/
+	float:left;
+}
+.icon_retore1{ 
+	background-image:url(../img/Icon2/Restore.png);
+    background-position:left;
+    background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	/*margin-left:3px;*/
+	float:left;
+}
+.icon_retore2{ 
+	background-image:url(../img/Icon2/Restore_Disable.png);
+    background-position:left;
+    background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	/*margin-left:3px;*/
+	float:left;
+}
+.icon_delivery1{ 
+	background-image:url(../img/Icon2/Delivery.png);
+    background-position:left;
+    background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	/*margin-left:3px;*/
+	float:left;
+}
+.icon_rating1{ 
+	background-image:url(../img/Icon2/Rating.png);
+    background-position:left;
+    background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	/*margin-left:3px;*/
+	float:left;
+}
+/*2013/07/16 Pranitda S. Start-Add */
+.icon_rating2{ 
+	background-image:url(../img/Icon2/Rating_Disable.png);
+    background-position:left;
+    background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	/*margin-left:3px;*/
+	float:left;
+}
+/*2013/07/16 Pranitda S. End-Add */
+/*24/07/2013 Suwishaya L. Start-Add*/
+.icon_save1{ 
+	background-image:url(../img/Icon2/Save.png);
+    background-position:left;
+    background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	/*margin-left:3px;*/
+	float:left;
+}
+.icon_save2{ 
+	background-image:url(../img/Icon2/Save_Disable.png);
+    background-position:left;
+    background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	/*margin-left:3px;*/
+	float:left;
+}
+/*24/07/2013 Suwishaya L. End-Add*/
+
+/* End Class Icon */
+
+
+/* Lin add 25/5/2013*/
+/*Begin Class View Table*/
+.table_view,td{
+	padding:5px;
+}
+.table_view_head{
+	background-color:gray;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align:left;
+	vertical-align:middle;	
+	border:1px solid black;
+	border-collapse:collapse;
+}
+/*Begin Class View Table**/	
+
+.table_detail_head{
+	background-color:gray;
+	color: #000000;
+	font-weight: bold;
+	text-align:left;
+	vertical-align:middle;	
+	border:1px solid black;
+	border-collapse:collapse;
+}	
+
+		
+				
+	

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="KTAC05DataSet" targetNamespace="http://tempuri.org/KTAC05DataSet.xsd" xmlns:mstns="http://tempuri.org/KTAC05DataSet.xsd" xmlns="http://tempuri.org/KTAC05DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="KTAC05DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="KTAC05DataSet" msprop:Generator_DataSetName="KTAC05DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="KTAC05DataSet" msprop:Generator_UserTableName="KTAC05DataSet" msprop:Generator_RowDeletedName="KTAC05DataSetRowDeleted" msprop:Generator_RowChangedName="KTAC05DataSetRowChanged" msprop:Generator_RowClassName="KTAC05DataSetRow" msprop:Generator_RowChangingName="KTAC05DataSetRowChanging" msprop:Generator_RowEvArgName="KTAC05DataSetRowChangeEvent" msprop:Generator_RowEvHandlerName="KTAC05DataSetRowChangeEventHandler" msprop:Generator_TableClassName="KTAC05DataSetDataTable" msprop:Generator_TableVarName="tableKTAC05DataSet" msprop:Generator_RowDeletingName="KTAC05DataSetRowDeleting" msprop:Generator_TablePropName="_KTAC05DataSet">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="job_order" msprop:Generator_UserColumnName="job_order" msprop:Generator_ColumnPropNameInRow="job_order" msprop:Generator_ColumnVarNameInTable="columnjob_order" msprop:Generator_ColumnPropNameInTable="job_orderColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="account_year" msprop:Generator_UserColumnName="account_year" msprop:Generator_ColumnPropNameInRow="account_year" msprop:Generator_ColumnVarNameInTable="columnaccount_year" msprop:Generator_ColumnPropNameInTable="account_yearColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="account_month" msprop:Generator_UserColumnName="account_month" msprop:Generator_ColumnPropNameInRow="account_month" msprop:Generator_ColumnVarNameInTable="columnaccount_month" msprop:Generator_ColumnPropNameInTable="account_monthColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ie_type" msprop:Generator_UserColumnName="ie_type" msprop:Generator_ColumnPropNameInRow="ie_type" msprop:Generator_ColumnVarNameInTable="columnie_type" msprop:Generator_ColumnPropNameInTable="ie_typeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ie_code" msprop:Generator_UserColumnName="ie_code" msprop:Generator_ColumnPropNameInRow="ie_code" msprop:Generator_ColumnVarNameInTable="columnie_code" msprop:Generator_ColumnPropNameInTable="ie_codeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ie_desc" msprop:Generator_UserColumnName="ie_desc" msprop:Generator_ColumnPropNameInRow="ie_desc" msprop:Generator_ColumnVarNameInTable="columnie_desc" msprop:Generator_ColumnPropNameInTable="ie_descColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="sub_total" msprop:Generator_UserColumnName="sub_total" msprop:Generator_ColumnPropNameInRow="sub_total" msprop:Generator_ColumnVarNameInTable="columnsub_total" msprop:Generator_ColumnPropNameInTable="sub_totalColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="bank_fee" msprop:Generator_UserColumnName="bank_fee" msprop:Generator_ColumnPropNameInRow="bank_fee" msprop:Generator_ColumnVarNameInTable="columnbank_fee" msprop:Generator_ColumnPropNameInTable="bank_feeColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

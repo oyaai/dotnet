@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+/* subsaarad@globaledge.asia */
+
+/* Boon add font all in CSS */
+body{
+    font-family:Tahoma !important;
+    font-size:13px;
+}
+/* Boon set font msg error */
+.font_require{
+	color:Red;
+	font-size:13px;
+}
+.font_error{
+	color:Red;
+	font-style:italic;
+	font-size:13px;
+}
+/* Boon set font msg error */
+.font_version{
+	color:Red;
+	/*font-style:italic;*/
+	font-size:10px;
+}
+/* Boon set font color link */
+/*a:link {color:#0000FF;text-decoration:none;}    /* unvisited link */
+/*a:visited {color:#0000FF;text-decoration:none;} /* visited link */
+/*a:hover {color:#FF00FF;text-decoration:none;}   /* mouse over link */
+/*a:active {color:#0000FF;text-decoration:none;}  /* selected link */
+.fix_link {color:#0000FF;text-decoration:none;}    /* unvisited link */
+.fix_link:visited {color:#0000FF;text-decoration:none;} /* visited link */
+.fix_link:hover {color:#EE00FF;text-decoration:none;}   /* mouse over link */
+.fix_link:active {color:#0000FF;text-decoration:none;}  /* selected link */
+/* =*=*=*= */
+/* Boon set font color paging link by kob */
+.paging{color:#FFFFFF;text-decoration:none;}    /* unvisited link */
+.paging:hover {color:#051cfa;text-decoration:none;}   /* mouse over link */
+.pagingOn {color:#051cfa;text-decoration:none;}  /* selected link */
+/* =*=*=*= */
+
+.font{
+	font-family:Arial, Helvetica, sans-serif;
+	}
+.font_color_normal{
+	color:#969696;
+	}
+.font_size_12{
+	font-size:12px;
+	}
+.font_size_14{
+	font-size:14px;
+	}
+.font_header{
+	/*color:#d5eaf7;*/
+	color:#1e90ff;
+	font-size:26px;
+	font-weight: bold;
+    text-align:left;
+	}
+
+/* Start text align */
+.text_center{
+    text-align:center;
+}
+.text_right{
+    text-align:right;
+}
+.text_left{
+    text-align:left;
+}
+/* Start text align */
+
+/* Start text color */
+.font_red{
+	color:Red; 
+}
+.font_blue{
+	color:Blue; 
+}
+.font_green{
+	color:Green
+}
+/* End text color */

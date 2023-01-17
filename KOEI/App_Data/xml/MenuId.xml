@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigValues>
+  <!--Boon add-->
+  <add key="KTJB01" value="1" />
+  <add key="KTJB03" value="2" />
+  <add key="KTJB05" value="3" />
+  <add key="KTJB07" value="4" />
+  <add key="KTJB08" value="5" />
+  <add key="KTJB09" value="6" />
+  <add key="KTPU01" value="7" />
+  <add key="KTPU03" value="8" />
+  <add key="KTPU05" value="9" />
+  <add key="KTPU07" value="10" />
+  <add key="KTPU09" value="11" />
+  <add key="KTAC01" value="12" />
+  <add key="KTAC02" value="13" />
+  <add key="KTAC03" value="14" />
+  <add key="KTAC04" value="15" />
+  <add key="KTAC05" value="16" />
+  <add key="KTAC06" value="17" />
+  <add key="KTAP01" value="18" />
+  <add key="KTAP02" value="19" />
+  <add key="KTST01" value="20" />
+  <add key="KTST02" value="21" />
+  <add key="KTST03" value="22" />
+  <add key="KTWH01" value="23" />
+  <add key="KTWH03" value="24" />
+  <add key="KTMS01" value="25" />
+  <add key="KTMS03" value="26" />
+  <add key="KTMS05" value="27" />
+  <add key="KTMS07" value="28" />
+  <add key="KTMS09" value="29" />
+  <add key="KTMS11" value="30" />
+  <add key="KTMS13" value="31" />
+  <add key="KTMS15" value="32" />
+  <add key="KTMS17" value="33" />
+  <add key="KTMS19" value="34" />
+  <add key="KTMS21" value="35" />
+  <add key="KTMS23" value="36" />
+  <add key="KTAD01" value="37" />
+  <add key="KTAD03" value="38" />
+  <add key="KTMS25" value="39" />
+  
+  <!--Boon add-->
+  <add key="Job Order" 			    value="1" />
+  <add key="Special Job Order" 	value="2" />
+  <add key="Invoice" 				    value="3" />
+  <add key="Income" 				    value="4" />
+  <add key="Finished Goods" 		value="5" />
+  <add key="Deleted Job Order Management" value="6" />
+  <add key="Purchase Request" 	value="7" />
+  <add key="Invoice" 				    value="8" />
+  <add key="Vendor Rating" 		  value="9" />
+  <add key="Input Cheque" 		  value="10" />
+  <add key="Purchase History Report" value="11" />
+  <add key="Accounting" 			  value="12" />
+  <add key="Income" 				    value="13" />
+  <add key="Payment" 				    value="14" />
+  <add key="Witholding Tax" 		value="15" />
+  <add key="Cost Table Overview" 	value="16" />
+  <add key="Cost Table Detailed" 	value="17" />
+  <add key="Purchase Approve" 	value="18" />
+  <add key="Accounting Approve" value="19" />
+  <add key="Stock In" 			    value="20" />
+  <add key="Stock Out" 			    value="21" />
+  <add key="Stock Adjust" 		  value="22" />
+  <add key="Working Hour" 		  value="23" />
+  <add key="Working Hour Report" 	value="24" />
+  <add key="Vendor" 				    value="25" />
+  <add key="Item" 				      value="26" />
+  <add key="I/E" 					      value="27" />
+  <add key="VAT" 					      value="28" />
+  <add key="W/T" 					      value="29" />
+  <add key="Unit" 				      value="30" />
+  <add key="Payment Term" 		  value="31" />
+  <add key="Job Order Type" 		value="32" />
+  <add key="Currency" 			    value="33" />
+  <add key="Working Category" 	value="34" />
+  <add key="Country" 				    value="35" />
+  <add key="Department" 			  value="36" />
+  <add key="User Login" 			  value="37" />
+  <add key="User Permission" 		value="38" />
+  <add key="Payment Condition" 	value="39" />
+
+</ConfigValues>
+

@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigValues>
+
+  <!--Boon add-->
+  <add key="Common_001" value="No found data." />
+  <add key="Common_002" value="No found data for report." />
+  <add key="Common_003" value="Cannot upload file size more than 4 MB." />
+  <add key="Common_004" value="Invalid date format. Date format should be dd/mm/yyyy." />
+  <add key="Common_005" value="Please verify Date from must less than Date to" />
+  <add key="Common_006" value="Showing {0} to {1} of {2} entries" />
+  <add key="Common_007" value="System can not process, Please try again." />
+  <add key="Common_008" value="No exchange rate, Please insert master data schecdule exchange rate." />
+
+  <!--Kob add for KTOV01-->
+  <add key="KTOV_01_001" value="Cannot Login, Please input username." />
+  <add key="KTOV_01_002" value="Cannot Login, Please input password." />
+  <add key="KTOV_01_003" value="Username or password wrong, Please validate." />
+  <add key="KTOV_01_004" value="Are you sure to Log out system?" />
+
+  <!--Boon add for KTMS01-->
+  <add key="KTMS_01_001" value="Are you sure to delete this vendor data?" />
+  <add key="KTMS_01_002" value="This vendor is already used, Cannot delete." />
+  <add key="KTMS_01_003" value="Delete vendor success." />
+  <add key="KTMS_01_004" value="Cannot delete vendor, error occured during delete data." />
+  <!--Boon add for KTMS02-->
+  <add key="KTMS_02_001" value="Confirm to create new vendor data." />
+  <add key="KTMS_02_002" value="Cannot create vendor, duplicate data entry." />
+  <add key="KTMS_02_003" value="Create vendor success." />
+  <add key="KTMS_02_004" value="Cannot create vendor, error occured during create data." />
+  <add key="KTMS_02_005" value="Update vendor success." />
+  <add key="KTMS_02_006" value="Cannot update vendor, error occured during update data." />
+  <add key="KTMS_02_007" value="Confirm to update vendor data." />
+  <add key="KTMS_02_008" value="Cannot update vendor, duplicate data entry." />
+  <!--Wasan D. for KTMS02_Branch-->
+  <add key="KTMS_02_BRANCH_001" value="Confirm to create new branch’s vendor data" />
+  <add key="KTMS_02_BRANCH_002" value="Duplicate branch name." />
+  <add key="KTMS_02_BRANCH_003" value="Create branch’s vendor success." />
+  <add key="KTMS_02_BRANCH_004" value="Cannot create branch’s vendor, error occured during create data." />
+  <add key="KTMS_02_BRANCH_005" value="Update branch’s vendor success." />
+  <add key="KTMS_02_BRANCH_006" value="Cannot update branch’s vendor, error occured during update data." />
+  <add key="KTMS_02_BRANCH_007" value="Confirm to update branch’s vendor data" />
+  <add key="KTMS_02_BRANCH_008" value="Are you sure to delete this branch’s vendor data?" />
+  <add key="KTMS_02_BRANCH_009" value="This branch’s vendor is already used, Cannot delete." />
+  <add key="KTMS_02_BRANCH_010" value="Delete branch’s vendor success." />
+  <add key="KTMS_02_BRANCH_011" value="Cannot delete branch’s vendor, error occured during delete data." />
+  <!--Boon add for KTMS11-->
+  <add key="KTMS_11_001" value="Are you sure to delete this unit data?" />
+  <add key="KTMS_11_002" value="This unit is already used, Cannot delete." />
+  <add key="KTMS_11_003" value="Delete unit success." />
+  <add key="KTMS_11_004" value="Cannot delete unit, error occurred during delete data." />
+  <add key="KTMS_11_005" value="You have no right to delete." />
+  <add key="KTMS_11_006" value="You have no right to edit." />
+  <!--Boon add for KTMS12-->
+  <add key="KTMS_12_001" value="Confirm to create new unit data?" />
+  <add key="KTMS_12_002" value="Cannot create unit, duplicate data entry." />
+  <add key="KTMS_12_003" value="Create unit success." />
+  <add key="KTMS_12_004" value="Cannot create unit, error occurred during create data." />
+  <add key="KTMS_12_005" value="Update unit success." />
+  <add key="KTMS_12_006" value="Cannot update unit, error occurred during update data." />
+  <add key="KTMS_12_007" value="Confirm to update unit data?" />
+  <add key="KTMS_12_008" value="Cannot update unit, duplicate data entry." />
+
+  <!--Boon add for KTPU01-->
+  <add key="KTPU_01_001" value="Are you sure to delete this purchase order data?" />
+  <add key="KTPU_01_002" value="This purchase order is already used, Cannot delete." />
+  <add key="KTPU_01_003" value="Delete purchase order success." />
+  <add key="KTPU_01_004" value="Cannot delete purchase order, error occurred during delete process." />
+  <!--Boon add for KTPU02-->
+  <add key="KTPU_02_001" value="Confirm to create new purchase order data?" />
+  <add key="KTPU_02_002" value="Create purchase order success." />
+  <add key="KTPU_02_003" value="Cannot create purchase order, error occurred during create process." />
+  <add key="KTPU_02_004" value="Confirm to update purchase order data?" />
+  <add key="KTPU_02_005" value="This purchase order is already used, cannot delete." />
+  <add key="KTPU_02_006" value="Update purchase order success." />
+  <add key="KTPU_02_007" value="Cannot update purchase order, error occurred during update process." />
+  <add key="KTPU_02_008" value="Invalid Job Order Number." />
+  <add key="KTPU_02_009" value="Confirm to add item data?" />
+  <add key="KTPU_02_010" value="Confirm to edit item data?" />
+  <add key="KTPU_02_011" value="Confirm to delete item data?" />
+  <add key="KTPU_02_012" value="Please setup approver person." />
+  <add key="KTPU_02_013" value="Can not save, No row in Item to Purchase/Outsource list." />
+  <add key="KTPU_02_014" value="Can not add, This item is already found in basket. Please browse to edit it." />
+  <add key="KTPU_02_015" value="Delivery Plan must later than today." />
+  <add key="KTPU_02_016" value="Can not delete, When state is in edit mode." />
+  <add key="KTPU_02_017" value="Error occurred during approve process." />
+  
+
+  <!--Boon add for KTMS29-->
+  <add key="KTMS_29_001" value="Are you sure to delete this schedule rate data?" />
+  <add key="KTMS_29_002" value="Delete schedule rate success." />
+  <add key="KTMS_29_003" value="Cannot delete schedule rate, error occurred during delete process." />
+  <add key="KTMS_29_004" value="Please select currency." />
+  <!--Boon add for KTMS30-->
+  <add key="KTMS_30_001" value="Confirm to create new schedule rate data." />
+  <add key="KTMS_30_002" value="Create schedule rate success." />
+  <add key="KTMS_30_003" value="Cannot create schedule rate, error occurred during create process." />
+  <add key="KTMS_30_004" value="Cannot create schedule rate, duplicate data entry." />
+  <add key="KTMS_30_005" value="Update schedule rate success." />
+  <add key="KTMS_30_006" value="Cannot update schedule rate, error occurred during update process." />
+  <add key="KTMS_30_007" value="Cannot update schedule rate, duplicate data entry." />
+  <add key="KTMS_30_008" value="Confirm to update schedule rate data." />
+  <add key="KTMS_30_009" value="Rate must greater than 0." />
+
+  <!--Charoon add for KTMS23-->
+  <add key="KTMS_23_001" value="Are you sure to delete this department data?" />
+  <add key="KTMS_23_002" value="This department is already used, Cannot delete." />
+  <add key="KTMS_23_003" value="Delete department success." />
+  <add key="KTMS_23_004" value="Cannot delete department, error occurred during delete process." />
+  <add key="KTMS_23_005" value="This department is already used, Cannot edit." />
+  <!--Charoon add for KTMS24-->
+  <add key="KTMS_24_001" value="Confirm to create new department data?" />
+  <add key="KTMS_24_002" value="Create department success." />
+  <add key="KTMS_24_003" value="Cannot create department, error occurred during create process." />
+  <add key="KTMS_24_004" value="Cannot create department, duplicate data entry." />
+  <add key="KTMS_24_005" value="Update department success." />
+  <add key="KTMS_24_006" value="Cannot update department, error occurred during update process." />
+  <add key="KTMS_24_007" value="Cannot update department, duplicate data entry." />
+  <add key="KTMS_24_008" value="Confirm to update department data." />
+
+  <!--Charoon add for KTMS21-->
+  <add key="KTMS_21_001" value="Are you sure to delete this country data?" />
+  <add key="KTMS_21_002" value="This country is already used, Cannot delete." />
+  <add key="KTMS_21_003" value="Delete country success." />
+  <add key="KTMS_21_004" value="Cannot delete country, error occurred during delete data." />
+  <add key="KTMS_21_005" value="You have no right to delete." />
+  <add key="KTMS_21_006" value="You have no right to edit." />
+  <add key="KTMS_21_007" value="This country is already used, Cannot edit." />
+  <!--Charoon add for KTMS22-->
+  <add key="KTMS_22_001" value="Confirm to create new country data." />
+  <add key="KTMS_22_002" value="Create country success." />
+  <add key="KTMS_22_003" value="Cannot create country, error occurred during create process." />
+  <add key="KTMS_22_004" value="Cannot create country, duplicate data entry." />
+  <add key="KTMS_22_005" value="Update country success." />
+  <add key="KTMS_22_006" value="Cannot update country, error occurred during update process." />
+  <add key="KTMS_22_007" value="Cannot update country, duplicate data entry." />
+  <add key="KTMS_22_008" value="Confirm to update country data." />
+
+  <!--Charoon add for KTMS19-->
+  <add key="KTMS_19_001" value="Are you sure to delete this working category data?" />
+  <add key="KTMS_19_002" value="This working category is already used, Cannot delete." />
+  <add key="KTMS_19_003" value="Delete working category success." />
+  <add key="KTMS_19_004" value="Cannot delete working category, error occurred during delete data." />
+  <add key="KTMS_19_005" value="You have no right to delete." />
+  <add key="KTMS_19_006" value="You have no right to edit." />
+  <add key="KTMS_19_007" value="This working category is already used, Cannot edit." />
+  <!--Charoon add for KTMS20-->
+  <add key="KTMS_20_001" value="Confirm to create new working category data?" />
+  <add key="KTMS_20_002" value="Cannot create working category, duplicate data entry." />
+  <add key="KTMS_20_003" value="Create working category success." />
+  <add key="KTMS_20_004" value="Cannot create working category, error occurred during create data." />
+  <add key="KTMS_20_005" value="Update working category success." />
+
+  <!--2013-06-06 Pranitda S. Start-add for KTMS20-->
+  <add key="KTMS_20_006" value="Cannot update working category, error occurred during update data." />
+  <add key="KTMS_20_007" value="Confirm to update working category data?" />
+  <add key="KTMS_20_008" value="Cannot create Working Category, duplicate data entry." />
+  <add key="KTMS_20_009" value="Cannot create Working Category, error occurred during create process." />
+  <!--2013-06-06 Pranitda S. End-add for KTMS20-->
+
+  <!--2013-06-24 Pranitda S. Start-add for KTPU03-->
+  <add key="KTPU_03_001" value="Are you sure to delete this invoice data?" />
+  <add key="KTPU_03_002" value="This invoice is already used, Cannot delete." />
+  <add key="KTPU_03_003" value="Delete invoice success." />
+  <add key="KTPU_03_004" value="Cannot delete invoice, error occurred during delete process." />
+  <add key="KTPU_03_005" value="Are you sure to do payment for the selected row(s)?" />
+  <add key="KTPU_03_008" value="Error occurred during confirm payment process."/>
+  <add key="KTPU_03_006" value="Nothing to do, please select row(s) to confirm payment."/>
+  <add key="KTPU_03_007" value="Confirm payment success."/>
+  <!--2013-06-24 Pranitda S. End-add for KTPU03-->
+
+  <!--2013-06-24 Pranitda S. Start-add for KTPU04-->
+  <add key="KTPU_04_001" value="Delivery quantity valid between 0 and remaining."/>
+  <add key="KTPU_04_002" value="Payment date over 2 months."/>
+  <add key="KTPU_04_003" value="Confirm to create invoice?"/>
+  <add key="KTPU_04_004" value="Create invoice success."/>
+  <add key="KTPU_04_005" value="Cannot create invoice, error occurred during create process."/>
+  <add key="KTPU_04_006" value="Confirm to update invoice?"/>
+  <add key="KTPU_04_007" value="Update invoice success."/>
+  <add key="KTPU_04_008" value="Cannot update invoice, error occurred during update process."/>
+  <add key="KTPU_04_009" value="This invoice no is already use."/>
+  <add key="KTPU_04_010" value="Invalid quantity, value should be between 0 and equal remain quantity."/>
+  <add key="KTPU_04_011" value="Invalid amount, value should be between 0 and equal remain quantity."/>
+  <add key="KTPU_04_012" value="Incorrect Delivery Amount."/>
+  <!--2013-06-24 Pranitda S. End-add for KTPU03-->
+
+  <!--2013-07-15 Pranitda S. Start-add for KTPU05-->
+  <add key="KTPU_05_001" value="Are you sure to delete this vendor rating data?"/>
+  <add key="KTPU_05_002" value="Delete vendor rating  success."/>
+  <add key="KTPU_05_003" value="Cannot delete vendor rating, error occurred during delete process."/>
+  <!--2013-07-15 Pranitda S. End-add for KTPU05-->
+
+  <!--2013-07-15 Pranitda S. Start-add for KTPU06-->
+  <add key="KTPU_06_001" value="Already rating for this invoice."/>
+  <add key="KTPU_06_002" value="Confirm to create vendor rating?"/>
+  <add key="KTPU_06_003" value="Create vendor rating success."/>
+  <add key="KTPU_06_004" value="Cannot create vendor rating, error occurred during create process."/>
+  <add key="KTPU_06_005" value="Confirm to update vendor rating?"/>
+  <add key="KTPU_06_006" value="Update vendor rating success."/>
+  <add key="KTPU_06_007" value="Cannot update vendor rating, error occurred during update process."/>
+  <add key="KTPU_06_008" value="Transaction has been deleted, record could  not  update."/>
+  <!--2013-07-15 Pranitda S. End-add for KTPU06-->
+
+  <!--2013-07-15 Pranitda S. Start-add for KTPU07-->
+  <add key="KTPU_07_001" value="Are you sure to delete this purchase payment data?"/>
+  <add key="KTPU_07_002" value="Delete purchase payment success."/>
+  <add key="KTPU_07_003" value="Cannot delete purchase payment, error occurred during delete process."/>
+  <add key="KTPU_07_004" value="Cannot export excel report, error occurred during export data." />
+  <add key="KTPU_07_005" value="Please setup approver person" />
+  <!--2013-07-15 Pranitda S. End-add for KTPU07-->
+
+  <!--2013-07-15 Pranitda S. Start-add for KTPU08-->
+  <add key="KTPU_08_001" value="Confirm to create purchase payment?"/>
+  <add key="KTPU_08_002" value="Create purchase payment success."/>
+  <add key="KTPU_08_003" value="Cannot create purchase payment, error occurred during create process."/>
+  <add key="KTPU_08_004" value="Confirm to update purchase payment?"/>
+  <add key="KTPU_08_005" value="Update purchase payment success."/>
+  <add key="KTPU_08_006" value="Cannot update purchase payment, error occurred during update process."/>
+  <add key="KTPU_08_007" value="This Cheque No is already used. Confirm to continue ?"/>
+  <add key="KTPU_08_008" value="Invalid number."/>
+  <add key="KTPU_08_009" value="Please select row(s) to create purchase payment."/>
+  <add key="KTPU_08_010" value="Error occurred during approve process."/>
+  <add key="KTPU_08_011" value="Pay Method is required." />
+  <add key="KTPU_08_012" value="Cheque No. is required." />
+  <add key="KTPU_08_013" value="Bank Name is required." />
+  <add key="KTPU_08_014" value="Account No. is required." />
+  <add key="KTPU_08_015" value="Account Name is required." />
+  <!--2013-07-15 Pranitda S. End-add for KTPU08-->
+  
+  <!--Komsan L. for KTMS03-->
+  <add key="KTMS_03_001" value="Are you sure to delete this item data?" />
+  <add key="KTMS_03_002" value="This item is already used, Cannot delete." />
+  <add key="KTMS_03_003" value="Delete vendor’s item success." />
+  <add key="KTMS_03_004" value="Cannot delete vendor’s item, error occurred during delete process." />
+
+  <!--Komsan L. for KTMS04-->
+  <add key="KTMS_04_001" value="Confirm to create new vendor’s item data?" />
+  <add key="KTMS_04_002" value="Create vendor’s item success." />
+  <add key="KTMS_04_003" value="Cannot create vendor’s item, error occurred during create process." />
+  <add key="KTMS_04_004" value="Cannot create vendor’s item, duplicate data entry." />
+  <add key="KTMS_04_005" value="Update vendor’s item success." />
+  <add key="KTMS_04_006" value="Cannot update vendor’s item, error occurred during update process." />
+  <add key="KTMS_04_007" value="Cannot update vendor’s item, duplicate data entry." />
+  <add key="KTMS_04_008" value="Confirm to update vendor’s item data." />
+
+  <!--Nisa S. for KTMS05-->
+  <add key="KTMS_05_001" value="Are you sure to delete this account title data?" />
+  <add key="KTMS_05_002" value="This account title is already used, Cannot delete." />
+  <add key="KTMS_05_003" value="Delete account title success." />
+  <add key="KTMS_05_004" value="Cannot delete account title, error occurred during delete." />
+
+  <!--Nisa S. for KTMS06-->
+  <add key="KTMS_06_001" value="Confirm to create new account title data?" />
+  <add key="KTMS_06_002" value="Create account title success." />
+  <add key="KTMS_06_003" value="Cannot create account title, error occurred during create process." />
+  <add key="KTMS_06_004" value="Cannot create account title, duplicate data entry." />
+  <add key="KTMS_06_005" value="Update account title success." />
+  <add key="KTMS_06_006" value="Cannot update account title, error occurred during update process." />
+  <add key="KTMS_06_007" value="Cannot update account title, duplicate data entry." />
+  <add key="KTMS_06_008" value="Confirm to update account title data?" />
+
+  <!--Nisa S. for KTMS07-->
+  <add key="KTMS_07_001" value="Are you sure to delete this VAT data?" />
+  <add key="KTMS_07_002" value="This VAT is already used, Cannot delete." />
+  <add key="KTMS_07_003" value="Delete VAT success." />
+  <add key="KTMS_07_004" value="Cannot delete VAT, error occurred during delete process." />
+  <add key="KTMS_07_005" value="Invalid input data format." />
+  <add key="KTMS_07_006" value="Invalid data range. It should between 1 and 100." />
+  <add key="KTMS_07_007" value="This VAT is already used, Cannot edit." />
+  <add key="KTMS_07_008" value="Are you sure to update  this VAT data?" />
+
+  <!--Nisa S. for KTMS08-->
+  <add key="KTMS_08_001" value="Confirm to create new VAT data?" />
+  <add key="KTMS_08_002" value="Create VAT success." />
+  <add key="KTMS_08_003" value="Cannot create VAT, error occurred during create process." />
+  <add key="KTMS_08_004" value="Cannot create VAT, duplicate data entry" />
+  <add key="KTMS_08_005" value="Update VAT success." />
+  <add key="KTMS_08_006" value="Cannot update VAT, error occurred during update process." />
+  <add key="KTMS_08_007" value="Cannot update  VAT, duplicate data entry." />
+  <add key="KTMS_08_008" value="Invalid input data format." />
+  <add key="KTMS_08_009" value="Invalid data range. It should between 1 and 100." />
+  <add key="KTMS_08_010" value="Confirm to update VAT data?" />
+  <add key="KTMS_08_011" value="This VAT is already used, Cannot edit." />
+
+  <!--Nisa S. for KTMS09-->
+  <add key="KTMS_09_001" value="Are you sure to delete this W/T data?" />
+  <add key="KTMS_09_002" value="This W/T is already used, Cannot delete." />
+  <add key="KTMS_09_003" value="Delete W/T success." />
+  <add key="KTMS_09_004" value="Cannot delete W/T, error occurred during delete process." />
+  <add key="KTMS_09_005" value="Invalid input data format." />
+  <add key="KTMS_09_006" value="Invalid data range. It should between 1 and 100." />
+  <add key="KTMS_09_007" value="This W/T is already used, Cannot edit." />
+  <add key="KTMS_09_008" value="Are you sure to update  this W/T data?" />
+
+  <!--Nisa S. for KTMS10-->
+  <add key="KTMS_10_001" value="Confirm to create new W/T data?" />
+  <add key="KTMS_10_002" value="Create W/T success." />
+  <add key="KTMS_10_003" value="Cannot create W/T, error occurred during create process." />
+  <add key="KTMS_10_004" value="Cannot create W/T, duplicate data entry." />
+  <add key="KTMS_10_005" value="Update W/T success." />
+  <add key="KTMS_10_006" value="Cannot update W/T, error occurred during update process." />
+  <add key="KTMS_10_007" value="Cannot update  W/T, duplicate data entry." />
+  <add key="KTMS_10_008" value="Invalid input data format." />
+  <add key="KTMS_10_009" value="Invalid data range. It should between 0 and 100." />
+  <add key="KTMS_10_010" value="Confirm to update W/T data?" />
+  <add key="KTMS_10_011" value="This W/T is already used, Cannot edit." />
+
+  <!--Nisa S. for KTMS13-->
+  <add key="KTMS_13_001" value="Are you sure to delete this payment term data?" />
+  <add key="KTMS_13_002" value="This payment term is already used, Cannot delete." />
+  <add key="KTMS_13_003" value="Delete payment term success." />
+  <add key="KTMS_13_004" value="Cannot delete payment term, error occurred during delete process." />
+  <add key="KTMS_13_005" value="This payment term is already used, Cannot edit." />
+  
+  <!--Nisa S. for KTMS14-->
+  <add key="KTMS_14_001" value="Confirm to create new payment term data?" />
+  <add key="KTMS_14_002" value="Create payment term success." />
+  <add key="KTMS_14_003" value="Cannot create payment term, error occurred during create process." />
+  <add key="KTMS_14_004" value="Cannot create payment term, duplicate data entry." />
+  <add key="KTMS_14_005" value="Update payment term success." />
+  <add key="KTMS_14_006" value="Cannot update payment term, error occurred during update process." />
+  <add key="KTMS_14_007" value="Cannot update payment term, duplicate data entry." />
+  <add key="KTMS_14_008" value="Confirm to update payment term data?" />
+
+  <!--Nisa S. for KTMS15-->
+  <add key="KTMS_15_001" value="Are you sure to delete this job order type data?" />
+  <add key="KTMS_15_002" value="This job order type is already used, Cannot delete." />
+  <add key="KTMS_15_003" value="Delete job order type success." />
+  <add key="KTMS_15_004" value="Cannot delete job order type, error occurred during delete process." />
+  <add key="KTMS_15_005" value="Are you sure to update  this job order type data?" />
+  <add key="KTMS_15_006" value="This job order type is already used, Cannot edit." />
+
+  <!--Nisa S. for KTMS16-->
+  <add key="KTMS_16_001" value="Confirm to create new job order type data?" />
+  <add key="KTMS_16_002" value="Create job order type success." />
+  <add key="KTMS_16_003" value="Cannot create job order type, error occurred during create process." />
+  <add key="KTMS_16_004" value="Cannot create job order type, duplicate data entry." />
+  <add key="KTMS_16_005" value="Update job order type success." />
+  <add key="KTMS_16_006" value="Cannot update job order type, error occurred during update process." />
+  <add key="KTMS_16_007" value="Cannot update job order type, duplicate data entry." />
+  <add key="KTMS_16_008" value="Confirm to update job order type data?" />
+
+  <!--Nisa S. for KTMS17-->
+  <add key="KTMS_17_001" value="Are you sure to delete this currency data?" />
+  <add key="KTMS_17_002" value="This currency is already used, Cannot delete." />
+  <add key="KTMS_17_003" value="Delete currency success." />
+  <add key="KTMS_17_004" value="Cannot delete currency, error occurred during delete process." />
+  <add key="KTMS_17_005" value="Are you sure to update this currency data?" />
+  <add key="KTMS_17_006" value="This currency is already used, Cannot edit." />
+
+  <!--Nisa S. for KTMS18-->
+  <add key="KTMS_18_001" value="Confirm to create new currency data?" />
+  <add key="KTMS_18_002" value="Create currency success." />
+  <add key="KTMS_18_003" value="Cannot create currency, error occurred during create process." />
+  <add key="KTMS_18_004" value="Cannot create currency, duplicate data entry." />
+  <add key="KTMS_18_005" value="Update currency success." />
+  <add key="KTMS_18_006" value="Cannot update currency, error occurred during update process." />
+  <add key="KTMS_18_007" value="Cannot update currency, duplicate data entry." />
+  <add key="KTMS_18_008" value="Confirm to update currency data?" />
+
+  <!--Nisa S. for KTMS27-->
+  <add key="KTMS_27_001" value="Are you sure to delete this staff data?" />
+  <add key="KTMS_27_002" value="Delete staff success." />
+  <add key="KTMS_27_003" value="Cannot delete staff, error occurred during delete process." />
+  <add key="KTMS_27_004" value="This staff is already used, Cannot delete." />
+  <add key="KTMS_27_005" value="This staff is already used, Cannot edit." />
+  
+  <!--Nisa S. for KTMS28-->
+  <add key="KTMS_28_001" value="Confirm to create new staff data?" />
+  <add key="KTMS_28_002" value="Create staff success." />
+  <add key="KTMS_28_003" value="Cannot create staff, error occurred during create process." />
+  <add key="KTMS_28_004" value="Cannot create staff, duplicate data entry." />
+  <add key="KTMS_28_005" value="Update staff success." />
+  <add key="KTMS_28_006" value="Cannot update staff, error occurred during update process." />
+  <add key="KTMS_28_007" value="Cannot update staff, duplicate data entry." />
+  <add key="KTMS_28_008" value="Confirm to update staff data?" />
+
+  <!--Nisa S. for KTAD01-->
+  <add key="KTAD_01_001" value="Are you sure to delete this user login data?" />
+  <add key="KTAD_01_002" value="Delete user login success." />
+  <add key="KTAD_01_003" value="Cannot delete user login, error occurred during delete data." />
+  <add key="KTAD_01_004" value="This user login is already used, Cannot delete." />
+  <add key="KTAD_01_005" value="This user login is already used, Cannot edit." />
+  
+  <!--Nisa S. for KTAD02-->
+  <add key="KTAD_02_001" value="Confirm to create new user login data?" />
+  <add key="KTAD_02_002" value="Create user login success." />
+  <add key="KTAD_02_003" value="Cannot create user login, error occurred during create data." />
+  <add key="KTAD_02_004" value="Confirm to update user login data?" />
+  <add key="KTAD_02_005" value="Update user login success." />
+  <add key="KTAD_02_006" value="Cannot update  user login, error occurred during update data." />
+  <add key="KTAD_02_007" value="Cannot use this user name, already use in system." />
+  <add key="KTAD_02_008" value="Cannot create user login, duplicate data entry." />
+  <add key="KTAD_02_009" value="Cannot update user login, duplicate data entry." />
+
+
+  <!--Suwishaya L. add for KTJB01-->
+  <add key="KTJB_01_001" value="Are you sure to delete this job order data?" />
+  <add key="KTJB_01_002" value="This job order is already used, Cannot delete." />
+  <add key="KTJB_01_003" value="Delete job order success." />
+  <add key="KTJB_01_004" value="Cannot delete job order, error occured during delete data." />
+  <add key="KTJB_01_005" value="Please verify Job Order From must less than Job Order To" />
+
+  <!--Suwishaya L. add for KTJB02-->
+  <add key="KTJB_02_001" value="Confirm to create new job order data." />
+  <add key="KTJB_02_002" value="Create job order success." />
+  <add key="KTJB_02_003" value="Cannot create job order, error occured during create data." />
+  <add key="KTJB_02_004" value="Confirm to update job order data." />
+  <add key="KTJB_02_005" value="Update job order success." />
+  <add key="KTJB_02_006" value="Cannot update  job order, error occured during update data." />
+  <add key="KTJB_02_007" value="Issue Date not less than January in this year." />
+  <add key="KTJB_02_008" value="Please verify Hontai [1st Date] less than [2nd Date] less than [3rd Date]." />
+  <add key="KTJB_02_009" value="Please Insert Hontai Amount"/>
+  <add key="KTJB_02_010" value="Please UPload PO!!"/>
+ 
+  <!--Suwishaya L. add for KTJB02_PO-->
+  <add key="KTJB_02_PO_001" value="Confirm to upload new PO data." />
+  <add key="KTJB_02_PO_002" value="Upload New PO success" />
+  <add key="KTJB_02_PO_003" value="Cannot upload PO, error occured during create data." />
+  <add key="KTJB_02_PO_004" value="Are you sure to delete this PO data?" />
+  <add key="KTJB_02_PO_005" value="This PO already issued invoice, Cannot delete." />
+  <add key="KTJB_02_PO_006" value="Delete PO success." />
+  <add key="KTJB_02_PO_007" value="Cannot delete PO, error occured during delete data." />
+  <add key="KTJB_01_PO_008" value="Cannot Upload File, Duplicate PO type Hontai" />
+  <add key="KTJB_01_PO_009" value="Po No. duplicate" />
+  <add key="KTJB_01_PO_010" value="Po file duplicate." />
+  <add key="KTJB_01_PO_011" value="Cannot Upload File, error occured during Upload data." />
+  <add key="KTJB_02_PO_012" value="Update Complete." />
+  <add key="KTJB_02_PO_013" value="Confirm to Update PO." />
+
+  <!--Suwishaya L. add for KTJB02_Quo-->
+  <add key="KTJB_02_Quo_001" value="Confirm to upload new Quotation data." />
+  <add key="KTJB_02_Quo_002" value="Upload Quotation success." />
+  <add key="KTJB_02_Quo_003" value="Cannot upload Quotation, error occured during create data." />
+  <add key="KTJB_02_Quo_004" value="Are you sure to delete this Quotation data?" />
+  <add key="KTJB_02_Quo_005" value="This Quotation already issued invoice, Cannot delete." />
+  <add key="KTJB_02_Quo_006" value="Delete Quotation success." />
+  <add key="KTJB_02_Quo_007" value="Cannot delete Quotation, error occured during delete data." />
+  <add key="KTJB_01_Quo_008" value="Cannot Upload File, Duplicate Quotation type Hontai" />
+  <add key="KTJB_01_Quo_009" value="Quotation No. duplicate" />
+  <add key="KTJB_01_Quo_010" value="Quotation file duplicate." />
+  <add key="KTJB_01_Quo_011" value="Cannot Upload File, error occured during Upload data." />
+  <add key="KTJB_01_Quo_012" value="Confirm to Update Quotation." />
+  
+
+  <!--Suwishaya L. add for KTJB03-->
+  <add key="KTJB_03_001" value="Are you sure to delete this Section Order data?" />
+  <add key="KTJB_03_002" value="This Section Order is already used, Cannot delete." />
+  <add key="KTJB_03_003" value="Delete Section Order success." />
+  <add key="KTJB_03_004" value="Cannot delete Section Order, error occurred during delete data." />
+  <add key="KTJB_03_005" value="Please verify Section Order From must less than Section Order To" />
+  <add key="KTJB_03_006" value="This Section Order is already used, Cannot edit." />
+
+  <!--Suwishaya L. add for KTJB04-->
+  <add key="KTJB_04_001" value="Cannot create section order, duplicate data entry." />
+  <add key="KTJB_04_002" value="Confirm to create section order data." />
+  <add key="KTJB_04_003" value="Create section order success." />
+  <add key="KTJB_04_004" value="Cannot create section order, error occurred during create data." />
+  <add key="KTJB_04_005" value="Confirm to update section order data." />
+  <add key="KTJB_04_006" value="Update section order success." />
+  <add key="KTJB_04_007" value="Cannot update section order, error occured during update data." />
+  <add key="KTJB_04_008" value="Cannot edit section order, duplicate data entry." />
+
+  <!--Suwishaya L. add for KTJB05-->
+  <add key="KTJB_05_001" value="Are you sure to delete this sale invoice data?" />
+  <add key="KTJB_05_002" value="This sale invoice is already used, Cannot delete." />
+  <add key="KTJB_05_003" value="Delete sale invoice success." />
+  <add key="KTJB_05_004" value="Cannot delete sale invoice, error occured during delete data." /> 
+  <add key="KTJB_05_005" value="Are you sure to confirm receive sale invoice data?" />
+  <add key="KTJB_05_006" value="Confirm receive sale invoice success." />
+  <add key="KTJB_05_007" value="Cannot confirm receive sale invoice, error occured during confirm receive data." />
+  <add key="KTJB_05_008" value="Please verify Bank Exchange Rate must more than 0" />
+  <add key="KTJB_05_009" value="Please verify Actual Amount must more than or equal 0" />
+  <add key="KTJB_05_010" value="Confirm to save sale invoice data." />
+  <add key="KTJB_05_011" value="Save sale invoice success." />
+  <add key="KTJB_05_012" value="Cannot save sale invoice, error occured during save data." />
+  <add key="KTJB_05_013" value="Cannot add sale invoice, please add account next approve data." />
+  <add key="KTJB_05_014" value="Cannot edit sale invoice, please add account next approve data." />
+  <add key="KTJB_05_015" value="Please Insert ExChangeRate."/>
+  
+  <!--Suwishaya L. add for KTJB06-->
+  <add key="KTJB_06_001" value="Confirm to create new sale invoice data." />
+  <add key="KTJB_06_002" value="Create sale invoice success." />
+  <add key="KTJB_06_003" value="Cannot create sale invoice, error occured during create data." />
+  <add key="KTJB_06_004" value="Confirm to update sale invoice data." />
+  <add key="KTJB_06_005" value="Update sale invoice success." />
+  <add key="KTJB_06_006" value="Cannot update  sale invoice, error occured during update data." />
+  <add key="KTJB_06_007" value="Invoice No. already in this system, Please check data." />
+  <add key="KTJB_06_008" value="Not found job order in system." />
+  <add key="KTJB_06_009" value="Confirm to create select PO job order data." />
+  <add key="KTJB_06_010" value="Cannot select job order because job order are not same customer." />
+  <add key="KTJB_06_011" value="Are you sure to delete this PO job order data?" />
+  <add key="KTJB_06_012" value="Delete PO job order success." />
+  <add key="KTJB_06_013" value="Cannot delete PO job order, error occured during delete data." />
+  <add key="KTJB_06_014" value="Invalid Bank Fee more than -1" />
+  <add key="KTJB_06_015" value="Cannot create sale invoice, installment not sorted." />
+  <add key="KTJB_06_016" value="Cannot update  sale invoice, installment not sorted." />
+  <add key="KTJB_06_017" value="Cannot select duplicate PO job order." />
+  <add key="KTJB_06_018" value="Please select PO job order." />
+  <add key="KTJB_06_019" value="Cannot clear  sale invoice, please try again." />
+  <add key="KTJB_06_020" value="Cannot back  sale invoice, please try again." />
+  <add key="KTJB_06_021" value="Please verify Bank Fee must more than or equal 0" />
+  <add key="KTJB_06_022" value="Please verify Bank Fee can not input more than 1 row" />
+
+  <!--Suwishaya L. add for KTJB09-->
+  <add key="KTJB_09_001" value="Are you sure to restore this job order data?" />
+  <add key="KTJB_09_002" value="Restore Job Order success." />
+  <add key="KTJB_09_003" value="Cannot Restore Job Order, error occured during restore." />
+
+  <!--Suwishaya L. add for KTAP01-->
+  <add key="KTAP_01_001" value="Status update successfully." />
+  <add key="KTAP_01_002" value="Cannot update status of selected items, error occurred during update process." />
+  <add key="KTAP_01_003" value="Confirm to change selected item’s status to approve?" />
+  <add key="KTAP_01_004" value="Confirm to change selected item’s status to decline?" />
+  <add key="KTAP_01_005" value="Confirm to change selected item’s status to delete?" />
+  <add key="KTAP_01_006" value="Can not Decline/Approve approved transaction" />
+
+  <!--Suwishaya L. add for KTAP02-->
+  <add key="KTAP_02_001" value="Status update successfully." />
+  <add key="KTAP_02_002" value="Cannot update status of selected items, error occurred during update process." />
+  <add key="KTAP_02_003" value="Confirm to change selected item’s status to approve?" />
+  <add key="KTAP_02_004" value="Confirm to change selected item’s status to decline?" />
+  <add key="KTAP_02_005" value="Confirm to change selected item’s status to delete?" />
+  <add key="KTAP_02_006" value="Can not Decline/Approve approved transaction" />
+
+  <!--Suwishaya L. add for KTWH01-->
+  <add key="KTWH_01_001" value="Are you sure to permanently delete this working hour data?" />
+  <add key="KTWH_01_002" value="Cannot delete selected working hour data, error occurred during delete process." />
+  <add key="KTWH_01_003" value="Delete working hour data success." />
+
+  <!--Suwishaya L. add for KTWH02-->
+  <add key="KTWH_02_001" value="Job order does not exist." />
+  <add key="KTWH_02_002" value="Job order that you entered already finished, cannot select." />
+  <add key="KTWH_02_003" value="Confirm to create working hour data?" />
+  <add key="KTWH_02_004" value="Create working hour success." />
+  <add key="KTWH_02_005" value="Cannot create working hour, error occurred during create process." />
+  <add key="KTWH_02_006" value="Confirm to update working hour data?" />
+  <add key="KTWH_02_007" value="Update working hour success." />
+  <add key="KTWH_02_008" value="Cannot update working hour, error occurred during update process." />
+  <add key="KTWH_02_009" value="Working hour %STARTTIME% to %ENDTIME% already entry for job %JOBORDER%" />
+
+  <!--Suwishaya L. add for KTWH02-->
+  <add key="KTWH_03_001" value="Please verify Period From and Period To, must be same year." />
+
+  <!--Pranitda S.for KTAC01-->
+  <add key="KTAC_01_001" value="Cannot export accounting report, error occurred during export data." />
+
+  <!--Pranitda S.for KTAC06-->
+  <add key="KTAC_06_001" value="Account Title that you specified, does not exists." />
+  <add key="KTAC_06_002" value="You have to specify both of Account Title criteria for search." />
+  <add key="KTAC_06_003" value="Invalid account title range. Account Title from should be less than or equal to." />
+  <add key="KTAC_06_004" value="Account Title category should be the same." />
+
+  <!--Komsan L. for KTAC02-->  
+  <add key="KTAC_02_001" value="Are you sure to delete this data" />
+  <add key="KTAC_02_002" value="Confirm to add income data?" />
+  <add key="KTAC_02_003" value="*Account Type is required." />
+  <add key="KTAC_02_004" value="*VAT is required." />
+  <add key="KTAC_02_005" value="*W/T is required." />
+  <add key="KTAC_02_006" value="*Sub Total is required." />
+  <add key="KTAC_02_007" value="*Sub Total must greater than 0." />
+  <add key="KTAC_02_008" value="*Receipt Date is required." />
+  <add key="KTAC_02_009" value="*Invalid amount. Allow only 0-9." />
+  <add key="KTAC_02_010" value="Confirm to update income data?" />
+  <add key="KTAC_02_011" value="Create income success." />
+  <add key="KTAC_02_012" value="Update income success." />
+  <add key="KTAC_02_013" value="Cannot create income, error occurred during create process." />
+  <add key="KTAC_02_014" value="Cannot update income, error occurred during update process." />
+  <add key="KTAC_02_015" value="Confirm to apply all income items to approval process?" />
+  <add key="KTAC_02_016" value="Data that you entered has already in this income transaction list." />
+  <add key="KTAC_02_017" value="Vendor should be the same." />
+  <add key="KTAC_02_018" value="Cannot edit income item, vendor should be the same." />
+  <add key="KTAC_02_019" value="Confirm to update income data?" />
+  <add key="KTAC_02_020" value="Income selected duplicate, This income edited." />
+  <add key="KTAC_02_021" value="Invalid format Receipt date." />
+  <add key="KTAC_02_022" value="Account type should be the same." />
+  <add key="KTAC_02_023" value="Address should be the same." />
+  <add key="KTAC_02_024" value="Bank should be the same." />
+  <add key="KTAC_02_025" value="Account name should be the same." />
+  <add key="KTAC_02_026" value="Account no should be the same." />
+  <add key="KTAC_02_027" value="Vat should be the same." />
+  <add key="KTAC_02_028" value="W/T should be the same." />
+  <add key="KTAC_02_029" value="Cheque no should be the same." /> 
+
+  <!--Komsan L. for KTAC03-->  
+  <add key="KTAC_03_001" value="Are you sure to delete this data" />
+  <add key="KTAC_03_002" value="Confirm to add payment data?" />
+  <add key="KTAC_03_003" value="*Account Type is required." />
+  <add key="KTAC_03_004" value="*VAT is required." />
+  <add key="KTAC_03_005" value="*W/T is required." />
+  <add key="KTAC_03_006" value="*Sub Total is required." />
+  <add key="KTAC_03_007" value="*Sub Total must greater than 0." />
+  <add key="KTAC_03_008" value="*Receipt Date is required." />
+  <add key="KTAC_03_009" value="*Invalid amount. Allow only 0-9." />
+  <add key="KTAC_03_010" value="Confirm to update payment data?" />
+  <add key="KTAC_03_011" value="Create payment success." />
+  <add key="KTAC_03_012" value="Update payment success." />
+  <add key="KTAC_03_013" value="Cannot create payment, error occurred during create process." />
+  <add key="KTAC_03_014" value="Cannot update payment, error occurred during update process." />
+  <add key="KTAC_03_015" value="Confirm to apply all payment items to approval process?" />
+  <add key="KTAC_03_016" value="Data that you entered has already in this payment transaction list." />
+  <add key="KTAC_03_017" value="Vendor should be the same." />
+  <add key="KTAC_03_018" value="Cannot edit payment item, vendor should be the same." />
+  <add key="KTAC_03_019" value="Confirm to update Payment data?" />
+  <add key="KTAC_03_020" value="Income selected duplicate, This payment edited." />
+  <add key="KTAC_03_021" value="Invalid format Receipt date." />
+  
+  <!--Wasan D. for KTMS25-->
+  <add key="KTMS_25_001" value="Are you sure to delete this payment condition data?" />
+  <add key="KTMS_25_002" value="This payment condition is already used, Cannot delete." />
+  <add key="KTMS_25_003" value="Delete payment condition success." />
+  <add key="KTMS_25_004" value="Cannot delete payment condition, error occurred during delete process." />
+
+  <!--Wasan D. for KTMS26-->
+  <add key="KTMS_26_001" value="Confirm to create new payment condition data" />
+  <add key="KTMS_26_002" value="Create payment condition success." />
+  <add key="KTMS_26_003" value="Cannot create payment condition, error occurred during create process." />
+  <add key="KTMS_26_004" value="Cannot create payment condition, duplicate data entry." />
+  <add key="KTMS_26_005" value="Update payment condition success." />
+  <add key="KTMS_26_006" value="Cannot update payment condition, error occurred during update process." />
+  <add key="KTMS_26_007" value="Cannot update payment condition, duplicate data entry." />
+  <add key="KTMS_26_008" value="Confirm to update payment condition data." />
+  <add key="KTMS_26_009" value="Percent value must be between 0 and 100." />
+  <add key="KTMS_26_010" value="Sum of percent must be 100%" />
+  <add key="KTMS_26_011" value="This payment condition is already used, Cannot update." />
+
+  <!--Wasan D. for KTAD03-->
+  <add key="KTAD_03_001" value="Are you sure to delete this user permission data?" />
+  <add key="KTAD_03_002" value="Delete user permission success." />
+  <add key="KTAD_03_003" value="Cannot delete user permission, error occured during delete data." />
+
+  <!--Wasan D. for KTAD04-->
+  <add key="KTAD_04_001" value="Confirm to create new user permission data." />
+  <add key="KTAD_04_002" value="Create user permission success." />
+  <add key="KTAD_04_003" value="Cannot create user permission, error occured during create data." />
+  <add key="KTAD_04_004" value="Confirm to update user permission data." />
+  <add key="KTAD_04_005" value="Update user permission success." />
+  <add key="KTAD_04_006" value="Cannot update user permission, error occured during update data." />
+
+  <!--Rawikarn K. for KTJB05_Exchange-->
+  <add key="KTJB_05_Exchange_001" value="Cannot Update ExChange Rate data." />
+  <add key="KTJB_05_Exchange_002" value="Update Complete." />
+  
+</ConfigValues>
+
+

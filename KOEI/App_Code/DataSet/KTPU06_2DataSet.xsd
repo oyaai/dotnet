@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="KTPU06_2DataSet" targetNamespace="http://tempuri.org/KTPU06_2DataSet.xsd" xmlns:mstns="http://tempuri.org/KTPU06_2DataSet.xsd" xmlns="http://tempuri.org/KTPU06_2DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="KTPU06_2DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="KTPU06_2DataSet" msprop:Generator_DataSetName="KTPU06_2DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="KTPU06_2DataSet" msprop:Generator_UserTableName="KTPU06_2DataSet" msprop:Generator_RowDeletedName="KTPU06_2DataSetRowDeleted" msprop:Generator_RowChangedName="KTPU06_2DataSetRowChanged" msprop:Generator_RowClassName="KTPU06_2DataSetRow" msprop:Generator_RowChangingName="KTPU06_2DataSetRowChanging" msprop:Generator_RowEvArgName="KTPU06_2DataSetRowChangeEvent" msprop:Generator_RowEvHandlerName="KTPU06_2DataSetRowChangeEventHandler" msprop:Generator_TableClassName="KTPU06_2DataSetDataTable" msprop:Generator_TableVarName="tableKTPU06_2DataSet" msprop:Generator_RowDeletingName="KTPU06_2DataSetRowDeleting" msprop:Generator_TablePropName="_KTPU06_2DataSet">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="po_type" msprop:Generator_UserColumnName="po_type" msprop:Generator_ColumnPropNameInRow="po_type" msprop:Generator_ColumnVarNameInTable="columnpo_type" msprop:Generator_ColumnPropNameInTable="po_typeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="vendor_id" msprop:Generator_UserColumnName="vendor_id" msprop:Generator_ColumnPropNameInRow="vendor_id" msprop:Generator_ColumnVarNameInTable="columnvendor_id" msprop:Generator_ColumnPropNameInTable="vendor_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="vendor_name" msprop:Generator_UserColumnName="vendor_name" msprop:Generator_ColumnPropNameInRow="vendor_name" msprop:Generator_ColumnVarNameInTable="columnvendor_name" msprop:Generator_ColumnPropNameInTable="vendor_nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="delivery_year" msprop:Generator_UserColumnName="delivery_year" msprop:Generator_ColumnPropNameInRow="delivery_year" msprop:Generator_ColumnVarNameInTable="columndelivery_year" msprop:Generator_ColumnPropNameInTable="delivery_yearColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="quality" msprop:Generator_UserColumnName="quality" msprop:Generator_ColumnPropNameInRow="quality" msprop:Generator_ColumnVarNameInTable="columnquality" msprop:Generator_ColumnPropNameInTable="qualityColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="delivery" msprop:Generator_UserColumnName="delivery" msprop:Generator_ColumnPropNameInRow="delivery" msprop:Generator_ColumnVarNameInTable="columndelivery" msprop:Generator_ColumnPropNameInTable="deliveryColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="service" msprop:Generator_UserColumnName="service" msprop:Generator_ColumnPropNameInRow="service" msprop:Generator_ColumnVarNameInTable="columnservice" msprop:Generator_ColumnPropNameInTable="serviceColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="grp" msprop:Generator_UserColumnName="grp" msprop:Generator_ColumnPropNameInRow="grp" msprop:Generator_ColumnVarNameInTable="columngrp" msprop:Generator_ColumnPropNameInTable="grpColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

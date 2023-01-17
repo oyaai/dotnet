@@ -1,0 +1,69 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>KOEI TOOL Management System</title> <%--<asp:Label ID="lblTitleMaster" Text="KOEI TOOL Management System" runat="server" ></asp:Label>--%>
+    <link href="App_Themes/common.css" type="text/css" rel="Stylesheet" />
+    <link href="App_Themes/design.css" type="text/css" rel="Stylesheet" />
+    <link href="App_Themes/font.css" type="text/css" rel="Stylesheet" />
+    <link href="App_Themes/fix_table.css" type="text/css" rel="Stylesheet" />
+    
+     <script language="javascript" type="text/javascript">
+        function ChangeCssClass(ObjectID, Active) {
+            if (Active == 'on') {
+                ObjectID.className = 'on';
+            } else {
+                ObjectID.className = '';
+            }
+        }
+
+        var myclose = false;
+
+        function ConfirmClose() {
+            if (event.clientY < 0) {
+                event.returnValue = 'You have closed the browser. Do you want to logout from your application?';
+                setTimeout('myclose=false', 10);
+                myclose = true;
+            }
+        }
+        
+    </script> 
+    
+    <asp:ContentPlaceHolder id="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" >
+        <div class="head_bg_blue" ></div>
+        <div class="detail_all">
+            <div class="menu_left">
+                <div class="logo"></div><!--KOEI TOOL Logo-->
+                <div class="detail_user">
+                    <div class="user_sh"><asp:Label ID="lblUsername" runat="server"  CssClass="user_info"></asp:Label></div>
+                    <div class="department_sh"><asp:Label ID="lblDepartment" runat="server"  CssClass="user_info"></asp:Label></div>
+                    <asp:Button ID="btnLogout" runat="server" Text="" 
+                        CssClass="logout_center text_center logout_mouse" CausesValidation="false" 
+                        EnableTheming="True" TabIndex="9" UseSubmitBehavior="False" />
+                </div>
+                <div class="menu_all"><!--MENU-->
+                   <ul class="v_menu">    
+                        <li>
+                        <a href="../Overview/KTOV02.aspx">HOME</a>
+                        <%=htmlMenu%>
+                        </li>
+                    </ul>
+    	        </div>
+            </div><!--END MENU-->
+            <div class="content"><!--START CONTENT-->
+  	            <asp:contentplaceholder id="MainContent" runat="server" >
+  	            <!--Content Form Area-->
+                </asp:contentplaceholder>
+            </div>
+       </div>
+    </form>
+</body>
+</html>
+
+

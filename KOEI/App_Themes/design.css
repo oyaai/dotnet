@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+/* subsaarad@globaledge.asia */
+
+
+/*// LOGIN PAGE //*/
+.login_bg{
+	background-color:#FFFFFF;
+	background-repeat:repeat;
+	border:1px solid #d5d5d5;
+	width:550px;
+	height:280px;
+	margin: 12% auto;
+	
+	}
+.login_center{
+	vertical-align:middle;
+	margin:0 auto;
+	width:320px;
+	height:30px;
+	
+	}
+.login_logo{
+	background-image: url(../img/logo_company.png);
+	background-repeat:no-repeat;
+	width:198px;
+	height:55px;
+	text-align:center;
+	margin: 30px auto;
+	}
+	
+.login_word{
+	vertical-align:middle;
+	margin: 0 auto;
+	position:fixed;
+
+	}	
+	
+.login_input_user{
+	background-image:url(../img/input_user.png);
+	background-repeat:no-repeat;
+	width:204px;
+	height:30px;
+	}	
+	
+.login_input_pass{
+	background-image:url(../img/input_pass.png);
+	background-repeat:no-repeat;
+	width:204px;
+	height:30px;
+	}	
+	
+.login_mouse {
+	display: block;
+	width:204px;
+	height:30px;
+	background: url(../img/bt-login-out.png);
+	 
+	}
+	
+.login_mouse:hover {
+	background-image : url(../img/bt-login-over.png); 
+	}
+	
+.welcome{
+	background-image:url(../img/welcome.png);
+	background-repeat:no-repeat;
+	width:324px;
+	height:80px;
+	margin:0 auto;
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
